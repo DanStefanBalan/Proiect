@@ -48,8 +48,6 @@ char densitate4[] = "Gram/Metru_cub";
 char densitate5[] = "Kilogram/Centimetru_cub";
 char densitate6[] = "Kilogram/Litru";
 char densitate7[] = "Funt/Picior_cub";
-
-
 char unitate_masura6[] = "Arie";
 
 char arie1[] = "Metru_patrat";
@@ -1546,18 +1544,14 @@ void validareDateIntrare()
 
 		if (strcmp(unitateMasuraDeConvertit, forta4) == 0 && strcmp(unitateMasuraCovertita, forta3) == 0)
 			cout << "Rezultatul conversiei este: " << forta4_3(numar)<<endl;
-		else
-		{
-			cout << "Ati selectat o unitate de masura gresita" << endl;
-			return;
-
-		}
+		
 		//se termina forta
 
 	}
 
 int main()
-{
+{/*
+	cout << temperatura1_2(33);*/
 	validareDateIntrare();
 	return 0;
 }
