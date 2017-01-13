@@ -1544,7 +1544,12 @@ void validareDateIntrare()
 
 		if (strcmp(unitateMasuraDeConvertit, forta4) == 0 && strcmp(unitateMasuraCovertita, forta3) == 0)
 			cout << "Rezultatul conversiei este: " << forta4_3(numar)<<endl;
-		
+		else
+		{
+			cout << "Ati selectat o unitate de masura gresita" << endl;
+			return;
+
+		}
 		//se termina forta
 
 	}
