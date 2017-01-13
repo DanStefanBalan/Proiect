@@ -56,8 +56,8 @@ char arie1[] = "Metru_patrat";
 char arie2[] = "Centimetru_patrat";
 char arie3[] = "Picior_patrat";
 char arie4[] = "Tol";
-char arie5[] = "Kilometru _patrat";
-char arie6[] = "Milimetru _patrat";
+char arie5[] = "Kilometru_patrat";
+char arie6[] = "Milimetru_patrat";
 char arie7[] = "Yard_patrat";
 
 
@@ -1557,8 +1557,7 @@ void validareDateIntrare()
 	}
 
 int main()
-{/*
-	cout << temperatura1_2(33);*/
+{
 	validareDateIntrare();
 	return 0;
 }
